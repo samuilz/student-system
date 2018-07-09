@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="20.0">models.Teacher</node>
+    <node x="0.0" y="888.0">models.StudentClass</node>
+    <node x="719.0" y="0.0">models.Student</node>
+    <node x="358.0" y="190.0">models.Person</node>
+    <node x="313.0" y="888.0">models.Grade</node>
+    <node x="541.0" y="888.0">models.Subject</node>
+    <node x="308.0" y="570.0">models.Parent</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="models.Parent" target="models.Person">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="models.Teacher" target="models.Person">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="models.Student" target="models.Person">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="161.5" />
+  <SelectedNodes>
+    <node>models.Parent</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
